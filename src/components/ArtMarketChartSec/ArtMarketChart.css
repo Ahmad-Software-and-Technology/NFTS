@@ -1,0 +1,14 @@
+/* Styles.css (make sure this is imported in your component or index.js) */
+
+@media (max-width: 768px) {
+    .chart-container {
+      min-height: 300px; /* Adjust the height of the chart on smaller screens */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .chart-container {
+      min-height: 500px; /* Adjust the height of the chart on larger screens */
+    }
+  }
+  

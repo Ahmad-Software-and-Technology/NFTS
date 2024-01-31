@@ -1,0 +1,29 @@
+.collect-section {
+ /* Adjust padding as needed */
+    background-color: #ffffff; /* Change to the desired background color */
+  }
+  
+  .collect-title {
+    font-size: 4rem; /* Large font size for larger screens */
+    margin-bottom: 30px; /* Space between the title and the image */
+  }
+  
+  .collect-gif {
+    /* Ensure the image is never wider than the screen */
+    height: 90vh; /* Maintain the aspect ratio of the GIF */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .collect-title {
+      font-size: 2rem; /* Smaller font size for small devices */
+    }
+  }
+  
+  /* Further responsive adjustments for very small screens */
+  @media (max-width: 480px) {
+    .collect-title {
+      font-size: 1.5rem; /* Even smaller font size for very small devices */
+    }
+  }
+  

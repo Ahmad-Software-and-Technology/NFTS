@@ -1,0 +1,22 @@
+.featured-section {
+    background-color: #ffffff;
+    height: auto; 
+   
+ /* Flex display to center content */
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+  }
+
+  .featured-section img {
+    max-width: 70%; /* Ensure logos are responsive */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.7; /* Tone down the logo colors to fit the design */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .featured-section img:hover {
+    opacity: 1; /* Logos stand out on hover */
+  }
+  
+  /* You might need additional styling depending on the logos and your design */
+  

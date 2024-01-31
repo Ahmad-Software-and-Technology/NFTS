@@ -1,0 +1,53 @@
+
+.massive-art-market-section{
+    text-align: center;
+    height: 80vh;
+    background-color: #6c757d11; 
+}
+.massive-art-market-section h2 {
+    font-size: 4.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .massive-art-market-section p {
+    font-size: 1.3rem;
+    
+
+    color: #6c757d; /* Bootstrap's default secondary text color */
+  }
+  .massive-col{
+
+    
+    align-items: center;
+    height: 20vh;
+  }
+  /* Styling for the cards to look like the image provided */
+  .card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.06);
+  }
+  
+  .card-title {
+    color: #585858;
+
+    text-align: justify;
+    font-size: 1.6rem;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .massive-art-market-section h2 {
+      font-size: 2rem; /* Smaller heading for smaller screens */
+    }
+    
+    .massive-art-market-section p {
+      font-size: 0.9rem; /* Smaller paragraph text for smaller screens */
+    }
+  
+    /* Adjust card title size on smaller screens */
+    .card-title {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,33 @@
+/* PowerBySection.css */
+
+.powered-by-section {
+    padding: 20px 0; /* Add padding to the section as needed */
+    background-color: #fff; /* Assuming a white background */
+    text-align: center; /* Center the content */
+  }
+  
+  .powered-by-text {
+    margin-right: 12px; /* Space before the first logo */
+    font-weight: bold; /* If you want the 'Powered by' text to be bold */
+  }
+  
+  /* Style for the images to make them responsive */
+  .powered-by-logo {
+    width: auto; /* You can set a fixed width or use 'auto' to maintain aspect ratio */
+    height: 60px; /* Adjust the height to fit your design */
+    max-width: 50%; /* Ensure the image is not larger than its container */
+    object-fit: contain; /* This will prevent the image from being cropped */
+  }
+  
+  @media (max-width: 768px) {
+    .powered-by-logo {
+      height: 20px; /* Smaller logos on smaller screens */
+    }
+  
+    .powered-by-text {
+        margin-left: 17px;
+      margin-right: 3px; /* Less space on smaller screens */
+      font-size: 0.9em; /* Smaller 'Powered by' text on smaller screens */
+    }
+  }
+  

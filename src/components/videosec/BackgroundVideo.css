@@ -1,0 +1,66 @@
+.fullscreen-bg {
+    position: relative;
+ /* Full viewport width */
+  padding: 0;
+  margin: 0;
+  
+    overflow: hidden;
+  }
+  
+  .fullscreen-bg__video {
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+    object-fit: cover; /* Cover the whole screen without losing aspect ratio */
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: rgba(0, 0, 0, 0.635); /* Blackish overlay with opacity */
+    z-index: 2; /* Above the video but below the text */
+  }
+  
+  .overlay-text {
+    position: relative;
+    z-index: 3; /* Above the overlay */
+    color: white; /* Ensuring text is visible on blackish background */
+    text-align: center; /* Centered text */
+  }
+  .overlay-text h1 {
+    color :white
+  }
+  
+  /* Responsive text size */
+  @media (max-width: 768px) {
+    .overlay-text h1 {
+      font-size: 20px; /* Smaller text for smaller screens */
+    }
+    .fullscreen-bg__video {
+    
+      object-fit: contain; 
+
+    }
+    .video-overlay {
+      position: absolute;
+      top: 3.2%;
+      left: 0;
+      right: 0;
+      bottom: 3.1%;
+      height: 30vh;
+      background: rgba(0, 0, 0, 0.635); /* Blackish overlay with opacity */
+      z-index: 2; /* Above the video but below the text */
+    }
+    
+  }
+  
+  /* Additional styles if needed for the button */
+
+  

@@ -1,0 +1,44 @@
+.artfi-section {
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 50vh;
+  display: flex; /* Flex display to center content */
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+.name-para{
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.artfi-title {
+  font-size: 9rem;
+  position: relative;
+}
+h1{
+  color: white;
+}
+.artfi-dot {
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 15%;
+  right: 0px;
+  margin-left: 10px; /* Use margin-left for spacing */
+  transform: translate(0, -70%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .artfi-title {
+    font-size: 2rem;
+  }
+
+  .artfi-dot {
+    height: 10px;
+    width: 10px;
+    margin-left: 5px; /* Adjusted spacing for smaller dot */
+  }
+}

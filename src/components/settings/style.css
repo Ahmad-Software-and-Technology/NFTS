@@ -1,0 +1,16 @@
+.form-background2{
+    width: 100%;
+    z-index: 30;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.form-background2 img{
+    height: auto;
+    width: 100%;
+}
+.selectedImage{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}

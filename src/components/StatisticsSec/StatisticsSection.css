@@ -1,0 +1,30 @@
+.statistics-section {
+    font-family: 'Arial', sans-serif; /* Or the font of your choice */
+  }
+  
+  .statistics-section .statistic h2 {
+    font-size: 2.5rem; /* Large font size for the figures */
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Space between the figure and the description */
+  }
+  
+  .statistics-section .statistic p {
+    font-size: 1rem; /* Font size for the description */
+    color: #6c757d; /* Bootstrap's default secondary text color */
+  }
+  .statistics-section .statistic h1{
+    color: black;
+  }
+  .static-all{
+    border-right: 0.2px solid gray;
+  }
+  @media (max-width: 768px) {
+    .statistics-section .statistic h2 {
+      font-size: 2rem; /* Smaller figures for smaller screens */
+    }
+    
+    .statistics-section .statistic p {
+      font-size: 0.9rem; /* Smaller description text for smaller screens */
+    }
+  }
+  

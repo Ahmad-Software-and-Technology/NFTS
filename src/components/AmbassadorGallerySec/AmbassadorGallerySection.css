@@ -1,0 +1,27 @@
+.ambassador-gallery-section {
+    background-color: #f8f9fa; /* or any color you prefer */
+  }
+  
+  .ambassador-gallery-section .text-section {
+    padding: 2rem;
+    text-align: center; /* Center the text */
+  }
+  
+  .ambassador-gallery-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .ambassador-gallery-section p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .ambassador-gallery-section .text-section {
+      padding: 1rem;
+    }
+  
+    .ambassador-gallery-section h2 {
+      font-size: 1.5rem; /* Adjust the heading size for small screens */
+    }
+  }
+  
