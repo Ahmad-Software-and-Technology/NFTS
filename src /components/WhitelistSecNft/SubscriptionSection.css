@@ -1,0 +1,122 @@
+.subscription-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    min-height: 40vh;
+    background: #F4F1FF;
+    padding: 50px 0px; /* Adjust the padding as needed */
+  }
+  .is_dark .subscription-section{
+    background: #323134;
+  }
+  .subscription-container p{
+    color: black;
+  }
+  .is_dark .subscription-container{
+    background: #19191F;
+    
+  }
+  .is_dark .subscription-container h3{
+    color: white;
+    
+  }
+  .is_dark .subscription-container p{
+    color: white;
+    
+  }
+  .subscription-container {
+    background: white;
+    min-width: 80vw;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    min-height: 30vh;
+    text-align: center;
+    max-width: 200px; /* Maximum width of the container */
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  .title {
+    color: black;
+}
+
+  .subscription-form {
+  display: block;
+  }
+  
+  .subscription-form 
+    input[type='email'] {
+
+    border: 1px solid #77777742;
+    color: black;
+    border-radius: 10px;
+    background-color:#e5e5e572;
+    max-width: 50%;
+    padding: 5px 10px;
+      
+    font-size: 16px; /* Adjust as needed */
+  }
+  .subscription-form input[type='email']::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .subscription-form-input {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px 0;
+
+
+  }
+  .subscription-form-input input{
+    margin: 10px 0;
+  }
+  .subscription-form textarea{
+
+    border: 1px solid #77777742;
+    color: black;
+    border-radius: 10px;
+    background-color:#e5e5e572;
+    max-width: 50%;
+    padding: 5px 10px;
+
+    font-size: 16px; /* Adjust as needed */
+  }
+  
+  .btn-whitelist:hover {
+    background-color: #6445ED;
+    color: white; /* Button hover color */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .subscription-container {
+      padding: 20px;
+    }
+    
+    .subscription-form {
+      flex-direction: column;
+    }
+    .title {
+      font-size: 25px;
+  }
+  .subscription-form 
+    input[type='email']{
+      max-width: 90%;
+    }
+  .subscription-form 
+    textarea{
+      max-width: 90%;
+    }
+    .btn-whitelist{
+      width: 60%;
+      font-size: 12px;
+    }
+    .subscription-form input[type='email'] {
+      margin-bottom: 10px; /* Space between input and button on mobile */
+    }
+  }
+  

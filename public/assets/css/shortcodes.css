@@ -3374,4 +3374,13 @@ margin-right: 22px;
 .item-details .new-letter {
     background: rgba(99, 69, 237, 0.05);
 }
+.header_dropdown_item:hover{
+    background-color: transparent;
+}
+.header_dropdown_item .sc-button{
+    padding: 7px 15px;
 
+    font-size: 15px;
+
+
+}

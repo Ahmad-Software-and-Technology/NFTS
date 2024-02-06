@@ -1,0 +1,65 @@
+.is_dark .contact-sec{
+    background-color: #19191F;
+
+}
+.is_dark .heading{
+    color: white;
+}
+.getIntouch_col_sec{
+    text-align: left;
+}
+.getIntouch_content{
+    font-family: "Roboto", sans-serif;
+    margin: 70px 0 ;
+}
+.getIntouch_content p{
+    font-size: 1.6rem;
+}
+.getIntouch_content p strong{
+    margin-right: 20px;
+}
+.getIntouch_heading {
+    color: #000000;
+    text-align: left;
+    margin:55px 0 20px 0;
+}
+.is_dark .getIntouch_heading{
+    color: white;
+}
+.contact-col{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    padding: 20px 40px;
+  
+}
+.contact-col .form-control{
+    padding: 4px 0;
+    
+}
+.getIntouch_subtitle{
+    font-family: "Roboto", sans-serif;
+
+    color: black;
+}
+.is_dark .getIntouch_subtitle{
+    color: white;
+}
+.heading{
+    color: black;
+}
+.is_dark  .widget-social ul li  a{
+background-color: white;
+}
+.is_dark .contact-img{
+    filter: drop-shadow(-1px 4px 12px #000000);
+}
+.contact-sec{
+    background-color: white;
+}
+
+.contact-msg-sec{
+    font-size: 16px;
+}
+.contact-section{
+    background-color: #aea2d664;
+}

@@ -1,0 +1,73 @@
+
+/* ArtSection.css */
+.is_dark .art-section{
+  background-color: #19191F;
+}
+.art-section{
+  background-color: #f4f1ff;
+}
+  .massive-row{
+    justify-content: center;
+  }
+  .title-col h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px; /* Large font size for the title */
+    font-weight: bold;
+  }
+  
+  .title-underline {
+    margin-top: 20px;
+
+    text-align: left;
+    width: 20%; /* Length of the underline */
+    border: 2px solid #0000FF; /* Blue underline */
+    margin-bottom: 1rem; /* Spacing below the underline */
+  }
+  
+  .text-col p {
+    font-family: "Roboto", sans-serif;
+
+    font-size: 14px; /* Font size for the text */
+    text-align: center ;
+    
+ /* Dark grey color for the text */
+  }
+  .art-content{
+    padding: 0 0.2em;
+  }
+  .text-col h5{
+    font-family: "Bodoni Moda", serif;
+
+    font-weight: 600;
+    line-height: 5.25rem;
+
+    font-size: 30px;
+  }
+  @media (max-width: 768px) {
+    .title-col h2 {
+      font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+    .text-col span{
+   
+      line-height: 35px;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .title-underline {
+      width: 30px; /* Shorter underline for smaller screens */
+    }
+    .text-col h5{
+   
+      font-size: 1.7rem;
+    }
+  
+    .text-col p {
+
+      font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+ /* Smaller text on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.roadmap{
+    height: 100vh;
+    width: 100%;
+   
+    background-color: #F5F2FE;
+}
+.roadmap h1{
+    color: black;
+}

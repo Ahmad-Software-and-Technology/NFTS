@@ -1,0 +1,121 @@
+
+
+.is_dark .social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    color: white;
+    background-color: black;
+
+  }
+  
+  .is_dark .social-node {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+
+
+.social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    color: black;
+    background-color: white;
+
+  }
+  .is_dark .social-node {
+    box-shadow: rgba(255, 255, 255, 0.578) 0px 2px 8px 0px;
+  }
+    .social-node {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 0.1px solid #B4B4B8;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .social-icon {
+    /* Replace with actual icons and style accordingly */
+    margin-bottom: 10px;
+  }
+  
+  .social-content {
+    text-align: center;
+    padding: 5px 0;
+
+
+ 
+  }
+  .social-content h3{
+    font-size: 2rem;
+    color:black;
+    
+  }
+  .social-content a{
+    font-weight: 600;
+
+    
+  }
+  .is_dark .social-content h3{
+    font-size: 2rem;
+    color:white;
+    
+  }
+  .social-content p{
+    line-height: 19px;
+  }
+ 
+
+  .social-link {
+    color: #CF3BFB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #CF3BFB;
+    }
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .social-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-node {
+      width: 150px;
+      height: 150px;
+      padding: 0 0;
+    }
+    .social-icon {
+      /* Replace with actual icons and style accordingly */
+      margin-bottom: 10px;
+      height: 20px;
+    }
+    .social-content h3{
+      font-size: 1rem;
+      color: white;
+    }
+  }
+  

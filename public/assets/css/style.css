@@ -1335,7 +1335,13 @@ a:focus {
     height: 140px;
 
 }
-
+@media (max-width: 750px) {
+    .header_1 #site-logo .main-logo img {
+        width: auto;
+        height: 100px;
+    
+    }
+  }
 /* form search */
 .header_1 .form-search {
     width: 220px;
@@ -2839,7 +2845,7 @@ color: var(--primary-color4);
 }
 
 .home-1 #footer {
-    padding: 90px 0 69px;
+    padding: 40px 0 69px;
 }
 
 #footer.style-2 {

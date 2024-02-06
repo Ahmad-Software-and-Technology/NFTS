@@ -1,0 +1,123 @@
+.is_dark .img-ambassador{
+  filter: drop-shadow(8px 43px 51px #ffffff); 
+  /* filter: drop-shadow(-13px 39px 33px #ffffff); 2*/
+  /* filter: drop-shadow(-13px 12px 16px #ffffff); 3*/
+  /* filter: drop-shadow(0px 14px 32px #ffffff); 4*/
+  /* filter: drop-shadow(0px 37px 79px #ffffff); */
+}
+
+.ambassador-section {
+    
+    min-height: 50vh;
+
+  }
+  .amb-row{
+    padding-top: 90px;
+  }
+  .ambassador-section h1 {
+   
+    font-size: 4.5rem; /* Large font size for the main title */
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Space between the title and the subtitle */
+  }
+  
+  .ambassador-section h2 {
+    font-size: 1.5rem; /* Smaller font size for the subtitle */
+    margin-bottom: 0.5rem; /* Space between the subtitle and the images */
+  }
+  
+  .ambassador-section p {
+    margin-bottom: 1rem; /* Space between the paragraph and the button */
+  }
+  
+  .ambassador-section .btn-primary {
+    background-color: #6c63ff; /* Custom primary button color */
+  }
+  
+  /* Image styling */
+  .img-fluid {
+    max-width: 100px; /* Fixed max-width for the images */
+    margin: 0 auto; /* Center the images */
+  }
+  
+  /* Border styling for images */
+  .border {
+    border: 3px solid #fff; /* White border */
+    padding: 4px; /* Padding around the image */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  .ambassador-gallery-section {
+    background-color: #f8f9fa; /* or any color you prefer */
+  }
+  
+  .ambassador-gallery-section .text-section {
+    padding: 2rem;
+    text-align: center; /* Center the text */
+  }
+  
+  .ambassador-gallery-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .ambassador-gallery-section p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .ambassador-gallery-section .text-section {
+      padding: 1rem;
+    }
+  
+    .ambassador-gallery-section h2 {
+      font-size: 1.5rem; /* Adjust the heading size for small screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ambassador-section h1 {
+      font-size: 2.5rem; /* Smaller font size for smaller devices */
+    }
+  
+    .ambassador-section h2 {
+      font-size: 1rem; /* Smaller font size for the subtitle on smaller devices */
+    }
+  
+    /* Adjust image size on smaller devices */
+    .img-fluid {
+      max-width: 100px; /* Smaller max-width for the images */
+    }
+  }
+  .gallery-item {
+    perspective: 1000px; /* Add perspective to give a 3D effect */
+    margin-bottom: 30px; /* Space between the images */
+  }
+  
+  .img-fluid-1 {
+    border-radius: 16px; /* Rounded corners as seen in the image */
+    transform: rotateY(10deg); /* Rotate the image slightly on its Y-axis */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 93%; /* Ensuring it's still responsive */
+    height: auto; /* Ensuring it maintains aspect ratio */
+  }
+  .ambassador-content{
+    padding: 0 110px;
+  }
+  .img-fluid-1:hover {
+    transform: rotateY(0deg); /* Rotate back to normal when hovered */
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-item {
+      margin-bottom: 15px; /* Less space between the images on smaller screens */
+    }
+  
+    .img-fluid-1 {
+      transform: rotateY(0deg); /* Keep images straight on smaller devices */
+    }
+    .ambassador-content{
+      padding: 0 2px;
+    }
+  }
+  
+  
